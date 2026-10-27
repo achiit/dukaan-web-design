@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f47735">
+<meta name="description" content="Affordable website and poster design services in Diamond Harbour.">
+<title>Web Design | Websites & Posters</title>
+<style>
+:root{--orange:#f47735;--deep:#8f351b;--cream:#fff7ed;--ink:#2c211c;--muted:#77665c;--white:#fff;--line:#f0dfd1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{padding:20px 0;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-weight:900;font-size:1.15rem;letter-spacing:-.04em;display:flex;align-items:center;gap:10px}.mark{background:var(--orange);color:white;width:38px;height:38px;border-radius:12px;display:grid;place-items:center;font-weight:900}
+nav{display:flex;gap:24px;font-size:.94rem;color:var(--muted)}nav a:hover{color:var(--deep)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--orange);color:#fff;padding:13px 19px;border-radius:14px;font-weight:800;border:2px solid var(--orange);transition:.2s}.btn:hover{transform:translateY(-2px);background:var(--deep);border-color:var(--deep)}.btn.outline{background:transparent;color:var(--deep);border-color:#e8b49a}
+.hero{padding:62px 0 72px;display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+.pill{display:inline-block;border:1px solid #f1c8ae;background:#fff0e4;color:var(--deep);padding:6px 12px;border-radius:99px;font-size:.82rem;font-weight:800}
+h1{font-size:clamp(2.6rem,6vw,5.1rem);line-height:1.02;letter-spacing:-.065em;margin:18px 0}.accent{color:var(--orange)}.hero p{color:var(--muted);font-size:1.1rem;max-width:540px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.note{font-size:.86rem!important;margin-top:14px}
+.visual{background:#f9d7bd;border-radius:30px;padding:20px;position:relative;min-height:390px;overflow:hidden}.visual:before{content:"";position:absolute;width:270px;height:270px;background:#f47735;border-radius:50%;right:-50px;top:-45px;opacity:.2}
+.mock{position:relative;background:#fffaf4;border:1px solid #fff;border-radius:20px;padding:22px;box-shadow:0 20px 50px #9b4d2a22}.mocktop{display:flex;gap:5px;margin-bottom:24px}.dot{width:8px;height:8px;border-radius:50%;background:#e7bda4}.mocklabel{font-size:.72rem;color:var(--muted);font-weight:800;letter-spacing:.12em}.mock h2{font-size:2rem;line-height:1.1;letter-spacing:-.05em;margin:8px 0 18px}.mockcard{background:#fff0e4;border-radius:15px;padding:15px;margin-top:12px;display:flex;justify-content:space-between;gap:12px;align-items:center}.mockcard strong{display:block}.price{color:var(--deep);font-weight:900;font-size:1.25rem}.mini{background:var(--orange);color:white;padding:7px 10px;border-radius:9px;font-size:.8rem;font-weight:800}
+section{padding:70px 0}.section-head{max-width:650px;margin-bottom:30px}.eyebrow{color:var(--deep);font-size:.78rem;letter-spacing:.15em;text-transform:uppercase;font-weight:900}h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;letter-spacing:-.05em;margin:8px 0 12px}.section-head p{color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.service{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px}.service-icon{width:48px;height:48px;background:#fff0e4;border-radius:14px;display:grid;place-items:center;font-size:1.4rem}.service h3{font-size:1.3rem;margin:17px 0 4px}.service p{color:var(--muted);margin:0 0 20px}.service-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px}.bigprice{font-size:1.8rem;font-weight:950;letter-spacing:-.05em;color:var(--deep)}
+.aboutbox{background:#2d211c;color:#fff7ed;border-radius:28px;padding:38px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.aboutbox p{color:#e2cfc2}.features{display:grid;gap:12px}.feature{background:#44332b;border:1px solid #5c4337;border-radius:14px;padding:14px 16px;font-weight:700}
+.contact{background:#ffead9;border-radius:28px;padding:36px;display:flex;justify-content:space-between;gap:24px;align-items:center}.contact p{color:var(--muted);margin:0}.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+footer{padding:28px 0 38px;color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;padding:40px 0 52px;gap:28px}.visual{min-height:auto}.services{grid-template-columns:1fr}.aboutbox{grid-template-columns:1fr;padding:26px}.contact{padding:26px;align-items:flex-start;flex-direction:column}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<a class="brand" href="#home"><span class="mark">W</span><span>Web Design</span></a>
+<nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="https://wa.me/917477589538?text=Hi%20Ridwan%2C%20I%27m%20interested%20in%20your%20design%20services.">Let's talk ↗</a>
+</header>
+<main>
+<section class="hero" id="home">
+<div>
+<span class="pill">✦ Based in Diamond Harbour</span>
+<h1>Good design.<br><span class="accent">Fair prices.</span><br>Made for you.</h1>
+<p>Need a website or a standout poster? I create clean, eye-catching designs for your business, project, or personal brand—without the big-agency price.</p>
+<div class="actions"><a class="btn" href="https://wa.me/917477589538?text=Hi%20Ridwan%2C%20I%20want%20to%20order%20a%20design.">Order on WhatsApp ↗</a><a class="btn outline" href="#services">Explore services ↓</a></div>
+<p class="note">Quick turnaround available. Delivery time depends on the project details.</p>
+</div>
+<div class="visual" aria-label="Sample design service preview">
+<div class="mock"><div class="mocktop"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+<div class="mocklabel">DESIGN THAT WORKS</div><h2>Your next big<br><span class="accent">idea starts here.</span></h2>
+<div class="mockcard"><div><strong>Website Design</strong><small>Modern • Responsive</small></div><span class="price">₹499</span></div>
+<div class="mockcard"><div><strong>Poster Design</strong><small>Creative • Custom</small></div><span class="price">₹99</span></div>
+</div>
+</div>
+</section>
+<section id="services">
+<div class="section-head"><div class="eyebrow">What I do</div><h2>Simple services.<br>Clear pricing.</h2><p>Choose what you need and message me with your idea. I’ll reply to discuss the details before starting.</p></div>
+<div class="services">
+<article class="service"><div class="service-icon">⌘</div><h3>Website Design</h3><p>A clean online presence for your business, service, or personal project.</p><div class="service-bottom"><span class="bigprice">₹499</span><a class="btn" href="https://wa.me/917477589538?text=Hi%20Ridwan%2C%20I%27m%20interested%20in%20Website%20Design%20for%20%E2%82%B9499.">Get started ↗</a></div></article>
+<article class="service"><div class="service-icon">✳</div><h3>Poster Design</h3><p>Custom promotional posters for offers, events, social media, and more.</p><div class="service-bottom"><span class="bigprice">₹99</span><a class="btn" href="https://wa.me/917477589538?text=Hi%20Ridwan%2C%20I%27m%20interested%20in%20Poster%20Design%20for%20%E2%82%B999.">Get started ↗</a></div></article>
+</div>
+</section>
+<section id="about">
+<div class="aboutbox"><div><div class="eyebrow" style="color:#ffad7b">A little about me</div><h2>Design made simple.</h2><p>Hi, I’m Ridwan—a designer based in Nungola, Diamond Harbour. My goal is to help people and small businesses look professional online with affordable, thoughtful design.</p><a class="btn" href="https://www.instagram.com/its_ridwan_2009/" target="_blank" rel="noopener">See Instagram ↗</a></div><div class="features"><div class="feature">✦ Affordable prices</div><div class="feature">✦ Friendly, direct communication</div><div class="feature">✦ Designs tailored to your needs</div></div></div>
+</section>
+<section id="contact">
+<div class="contact"><div><div class="eyebrow">Ready when you are</div><h2>Have an idea?</h2><p>Send me a message and let’s turn it into a design.</p><p style="margin-top:8px">Diamond Harbour, Nungola · 10 AM–10 PM</p></div><div class="contact-actions"><a class="btn" href="https://wa.me/917477589538?text=Hi%20Ridwan%2C%20I%20have%20a%20design%20project.">WhatsApp me ↗</a><a class="btn outline" href="https://www.instagram.com/its_ridwan_2009/" target="_blank" rel="noopener">Instagram ↗</a></div></div>
+</section>
+</main>
+<footer><span>© <span id="year"></span> Web Design by Ridwan</span><span>Made with care in Diamond Harbour</span></footer>
+</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
